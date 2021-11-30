@@ -1,16 +1,29 @@
+/*для обнуления страницы */
 * {
  margin: 0;
  padding: 0;
  font-family: Hind,sans-serif;
 }
+/* размер первого блока */
+.header2{
+    width: 100%;
 
+}
 header{
-    height: 70px;
-    width: 75%;
+   position: fixed;
+    height: 60px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: auto;
+    background-color: #fff;
+}
+header div {
+    flex:1;
+}
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
 .nav li {
@@ -26,33 +39,179 @@ header{
 } 
 
 .first-block{
-    height: 350px;
+    
+    height: 435px;
     width: 100%;
     background-color: rgb(71, 66, 66);
     display: flex;
     justify-content: center;
 }
 
-.block1-content {
-    margin-top: 30px;
+.home {
+    padding-top: 80px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+     width: 100%;
+    background: linear-gradient(
+        rgba(81,87,105,0.4),
+        rgba(81,87,105,0.4)), 
+        url(/img/1920x1080/01.jpg) center center no-repeat; 
+    background-size: cover; 
+    
 }
 
 .block1-text1 {
-    margin-bottom: 30px;
-    font-size: 10px;
-    font-weight:
-
+    margin: 30px 60px 20px 60px;;
+    font-size: 35px;
+    color: white;
+    
 }
 
 .block1-text2 {
+   
     margin-bottom: 30px;
+    font-size: 25px;
+    color: white;
+   
 }
 
-.block1-btn {
+.block1-button1 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 60px;
     width: 250px;   
-    background-color: white; 
+    background-color: white;
 }
+
+.block1-button1:hover {
+    background-color: #17bed2;
+}
+
+.block1-button1:hover > .text-btn-img {
+  color: #fff;
+}
+
+.btn-img {
+    width: 25px;
+    height: 25px;
+}
+.text-btn-img {
+    margin-left: 15px;
+    font-size: 15px;
+    width: 165px;
+    height: 15px;
+    font-weight: 900;
+    align-items: center;
+    color: #515769;
+    text-transform: uppercase;
+}
+/* размер блока 2 */
+.block2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* текст в бло */
+.text-block2 {
+    
+    text-align: center;
+} 
+.text-block2 h1 {
+    padding-bottom: 30px;
+    color: #515769;
+    padding-top: 50px;
+
+
+}
+ .text-block2-1 {
+  color: #515769;
+  font-size: 15px;
+  max-width: 400px;
+  
+}
+
+
+.text-block2-1 h2{
+    font-size: 22.4px;
+   font-weight: 300;
+   line-height: 1.5em;
+   color: #a6a7aa;
+} 
+/* основной контейнер 3го блока */
+.block3 {
+    
+    width: 90%;
+    height: 510px;
+    margin: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+/* размер ширина высота 1го блока в 3ем контейнере */
+.block3-content {
+    height: 400px;
+    height: 500px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* размер текста 3го блока */
+.block3-content h1{
+    width: 150px;
+    height: 150px;
+
+
+}
+/*первая картинка третьего блокa*/
+.block3-content img{
+    width: 100%;
+    height: 240px;
+
+}
+/* текст под картинкой первого блока */
+.block3text1 {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .WS1 {
+    font-size: 20px;
+    color: #515769;
+    font-weight: 800;
+
+  }
+  .MG1 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #bfc1c7;
+    font-weight: 400;
+    margin-left: 40px;
+    
+  }
+  .block3-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin: 1em 0;
+    line-height: 1.5em;
+  }
+  a {
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #81848f;
+    margin-bottom: 15px;
+  }
+  
