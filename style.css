@@ -175,7 +175,7 @@ header div {
     height: 240px;
 
 }
-/* текст под картинкой первого блока */
+/* текст под картинками блоков */
 .block3text1 {
     height: 35px;
     width: 100%;
@@ -183,7 +183,7 @@ header div {
     align-items: center;
    
   }
-  
+  /*  */
   .WS1 {
     font-size: 20px;
     color: #515769;
@@ -214,4 +214,56 @@ header div {
     color: #81848f;
     margin-bottom: 15px;
   }
-  
+  .img3 {
+      width: 100%;
+      height: 449px;
+      display: flex;
+      justify-content: space-between;
+  }
+ /* форма 4го блока*/ 
+  .block4-fon {
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%
+    
+  }
+  /*размеры и деление 4го блока*/
+  .blocks4 {
+    
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  .block4-mod1 {
+    padding: 1.5em;
+    margin: 0.1em;
+    width: 25%;
+    background-color: #fff;
+    line-height: 4em;
+    color: #515769;
+  }
+  .blocks4 a {
+    text-decoration: none;
+    outline: none;
+  }
+  .block4-mod1 h3 {
+    font-size: 1.5em;
+    font-weight: 550;
+}
+  .block4-mod1 p {
+    line-height: normal;
+    font-size: 10px;
+    font-weight: 400;
+    color: #a6a7aa;
+}
+ .block4-mod1 img {
+    
+    /* margin-top: 1.2em; */
+    width: 2em;
+    height: 2em;
+ }
