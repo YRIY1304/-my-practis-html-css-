@@ -368,3 +368,154 @@ header div {
      url(./img/397x300/03.jpg) center center no-repeat ; 
    background-size: contain; 
  }
+
+ .block7-all {
+   width: 100%;
+   background-color: #f5f5f5;
+ }
+
+ .block7-size {
+  margin: auto;
+  padding: 5%;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.price-box {
+  padding: 2% 5%;
+    width: 15%;
+    margin: 0.1em;
+    background-color: #fff;
+    line-height: 4em;
+    color: #515769;
+}
+
+.price-box:nth-child(2){
+  padding: 5% 5%;
+}
+
+.price-box img {
+  position: relative;
+  width: 2em;
+  height: 2em;
+}
+
+
+.price-box h3 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+  font-size: 22px;
+}
+
+.price-box h3>span {
+  line-height: normal;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #a6a7aa;
+}
+
+.price-box p {
+  line-height: normal;
+  width: 90%;
+  font-size: 1em;
+  font-weight: 400;
+  color: #a6a7aa;
+}
+
+.price-box ul {
+  padding: 1em 0;
+  list-style: none;
+  line-height: 2em;
+}
+
+.price-box li {
+  position: relative;
+  font-size: 0.9em;
+  color: #81848f;
+  padding-left: 1em;
+  margin-bottom: 1em;
+}
+
+.price-box li::before {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  width: 0.6em;
+  height: 2px;
+  background: #17bed2;
+  content: ' ';
+}
+
+.prcbtn {
+  text-transform: uppercase;
+  color: #515769;
+  background: #f3f4f5;
+  border-color: transparent;
+  border-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+.prcbtn:hover {
+  background-color: #17bed2;
+  color: #fff;
+}
+
+.review {
+  width: 100%;
+}
+
+.reviewin {
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    margin: auto;
+    padding: 4em 0;
+}
+ 
+.reviewin h2 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  font-size: 2em;
+}
+
+blockquote {
+  padding: 1em 0;
+  position: relative;
+  font-size: 1em;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-left: 2em;
+}
+
+.texting {
+  margin-bottom: 1.5em;
+  width: 80%;
+}
+
+blockquote span {
+  font-weight: 700;
+  color: #81848f;
+}
+blockquote::before {
+  position: absolute;
+  top: 0em;
+  left: -0.7em;
+  font-size: 3em;
+  display: inline-block;
+  color: rgb(23, 190, 210);
+  content: "“";
+}
