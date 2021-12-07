@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Web-site for Leviossa</title>
 </head>
 
@@ -15,7 +18,7 @@
             <img src="img/logo-dark.png">
         </div>
         <!--nav-bar1 -->
-        <div>
+        <div class="menu-list">
             <ul class="nav">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">PRODUCT</a></li>
@@ -25,7 +28,22 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
+        <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+              <span></span>
+            </label>
+         
+            <ul class="menubox">
+                    <li><a class="menu-item" href="#">Home</a></li>
+                    <li><a class="menu-item" href="#">About us</a></li>
+                    <li><a class="menu-item" href="#">Blog</a></li>
+                    <li><a class="menu-item" href="#">Articles</a></li>
+                    <li><a class="menu-item" href="#">Contacts</a></li>
+            </ul>
+          </div>
     </header>
+    
     <main>
         <!--block1-->
         <div class="first-block">
@@ -99,7 +117,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
                     </p>
                 </a>
-                <a class="block4-mod1" href="#">
+                <a class="block4-mod1 block4-mod1-active" href="#">
                     <img src="https://img.icons8.com/ios/50/000000/iphone-x.png" />
                     <h3>Art of Coding</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
@@ -158,7 +176,7 @@
         </div>
         <!--Block6-->
         <div class="block6-all">
-
+            <div class="block6-content">
             <a href="#">
                 <div class="block6-img1"></div>
             </a>
@@ -174,6 +192,7 @@
             <a href="#">
                 <div class="block6-img5"></div>
             </a>
+        </div>
         </div>
         <!--Block7-->
         <div class="block7-all">
@@ -228,25 +247,86 @@
         <!--Bkock7-->
         <div class="review">
             <div class="reviewin">
-             <h2>Coustomer Reviews</h2>
-               <div class="swiper">
-                   <blockquote>
-                          <div class="texting">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
-                        
-                    </div>
-                         <div class="texting">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
-                       
-                    </div>
-                    <p>
-                        <span>Joh Milner</span>
-                        , Metronic Coustomer
-                    </p>
+                <h2>Coustomer Reviews</h2>
+                <div class="swiper">
+                    <blockquote>
+                        <div class="texting">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
+                            incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad
+                            consequat siad minim enum esqudiat dolore.
 
-                   </blockquote>
-                 </div>
+                        </div>
+                        <div class="texting">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
+                            incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad
+                            consequat siad minim enum esqudiat dolore.
+
+                        </div>
+                        <p>
+                            <span>Joh Milner</span>
+                            , Metronic Coustomer
+                        </p>
+
+                    </blockquote>
+                </div>
             </div>
         </div>
+        <!--block8 card-->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.0018540928068!2d38.91454241512386!3d47.216546022834926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3fd449ae6f2d3%3A0x37bbdaf9fb4cbdbb!2z0JDQu9C10LrRgdCw0L3QtNGA0L7QstGB0LrQsNGPINGD0LsuLCAxMDgsINCi0LDQs9Cw0L3RgNC-0LMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NzkzNQ!5e0!3m2!1sru!2sru!4v1638795147316!5m2!1sru!2sru"
+            width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <!--block9 contacts-->
+        <div class="contacts">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Work</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <li>Twitter</li>
+                </a>
+                <a href="#">
+                    <li>Facebook</li>
+                </a>
+                <a href="#">
+                    <li>Instagram</li>
+                </a>
+                <a href="#">
+                    <li>YorTube</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <li>Subscribe to Our Newsletter</li>
+                </a>
+                <a href="#">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="#">
+                    <li>Terms & Conditions</li>
+                </a>
+            </ul>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <img src="./img/logo-dark.png">
+            <span>
+                <a href="#">Aironepage</a>
+                  Theme Powered by:
+                  <a href="#"> KeenThemes.com</a> 
+            </span>
+        </div>
+
     </main>
+
 
 </body>
 
